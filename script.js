@@ -49,6 +49,7 @@ const student = {
   
   const newCourses = ["Biology", "Chemistry"];
   const mergedCourses = [...student.courses, ...newCourses];
+  console.log("Checkpoint: Merged courses array.");
   console.log("Merged Courses:", mergedCourses);
   
   // Part 5: Object Methods in use
