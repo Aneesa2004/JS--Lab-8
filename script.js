@@ -60,5 +60,6 @@ const student = {
   
   // Bonus: Average Score using reduce
   const averageScore = scores.reduce((sum, score) => sum + score, 0) / scores.length;
+  console.log("Checkpoint: Calculated average score.");
   console.log("Average Score:", averageScore.toFixed(2));
   
