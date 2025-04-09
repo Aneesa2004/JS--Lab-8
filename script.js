@@ -44,6 +44,7 @@ const student = {
   
   // Part 4: Spread Operator
   const clonedStudent = { ...student, graduationYear: 2025 };
+  console.log("Checkpoint: Cloned student with graduation year.");
   console.log("Cloned Student with Graduation Year:", clonedStudent);
   
   const newCourses = ["Biology", "Chemistry"];
