@@ -54,6 +54,7 @@ const student = {
   
   // Part 5: Object Methods in use
   student.addCourse("Computer Science");
+  console.log("Checkpoint: Added 'Computer Science' to courses.");
   console.log("Courses After Adding:", student.courses);
   console.log("Total Courses:", student.totalCourses());
   
