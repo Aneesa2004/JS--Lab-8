@@ -23,6 +23,7 @@ const student = {
   
   // Part 2: Working with JSON
   const studentJSON = JSON.stringify(student);
+  console.log("Checkpoint: Student converted to JSON.");
   console.log("JSON String:", studentJSON);
   
   const parsedStudent = JSON.parse(studentJSON);
