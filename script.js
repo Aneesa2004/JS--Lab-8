@@ -1,6 +1,6 @@
 // Part 1: Creating the student object
 const student = {
-    name: "Alice Johnson",
+    name: "Junaid Khan",
     age: 22,
     enrolled: true,
     courses: ["Math", "Physics", "English"],
