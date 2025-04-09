@@ -38,6 +38,7 @@ const student = {
   
   const scores = [85, 92, 78, 90];
   const [firstScore, secondScore] = scores;
+  console.log("Checkpoint: Destructured scores array.");
   console.log("First Score:", firstScore);
   console.log("Second Score:", secondScore);
   
