@@ -32,6 +32,7 @@ const student = {
   
   // Part 3: Destructuring Assignment
   const { name, courses } = student;
+  console.log("Checkpoint: Destructured student object.");
   console.log("Destructured Name:", name);
   console.log("Destructured Courses:", courses);
   
