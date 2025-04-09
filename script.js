@@ -27,6 +27,7 @@ const student = {
   console.log("JSON String:", studentJSON);
   
   const parsedStudent = JSON.parse(studentJSON);
+  console.log("Checkpoint: JSON parsed back to object.");
   console.log("Parsed Object:", parsedStudent);
   
   // Part 3: Destructuring Assignment
